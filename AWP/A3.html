@@ -1,0 +1,462 @@
+<form>
+    <style type="text/css">
+     body{
+        background-color:PINK;
+        }
+        #building{
+        background-color: #C0C0C0;
+          width: 1750px;   height: 620px;
+          top: 30px;       left: 50px;
+          position:absolute;}
+        #floor4{
+          background-color: rgb(203,208,195);
+          border-width: 5px;  border-style: solid;
+          width: 1800px;     height: 80px;
+          top: 30px;         left: 40px;
+          position:absolute;
+          z-index: 2;}
+        #floor3{
+          background-color: rgb(247, 246, 226);
+          border-width: 3px;  border-style: solid;
+          width: 1700px;     height: 90px;
+          top: 200px;        left: 50px;
+          position:absolute; z-index: 2;}
+         #floor2{
+          background-color: rgb(247, 246, 226);
+          border-width: 3px; border-style: solid;
+          width: 1700px;         height: 90px;
+          top: 380px;            left: 50px;
+          position:absolute;     z-index: 3;}
+        #floor1{
+          background-color: rgb(247, 246, 226);
+          border-width: 3px; border-style: solid;
+          width: 1750px;      height: 90px;
+          top: 560px;         left: 50px;
+          position:absolute;  z-index: 4;}
+        #mid{
+          background-color: #C0C0C0;
+          border-width: 5px; border-style: solid;
+          width: 400px;      height: 640px;
+          top: 10px;         left: 910px;
+          position:absolute; z-index: 5;}
+        #box{
+          background-color: #C19A6B;
+          border-width: 4px; border-style: solid;
+          width: 250px;      height: 200px;
+          top: 50px;         left: 75px;
+          position:absolute; z-index: 6;}
+        #box2{
+          background-color: #C19A6B;
+          border-width: 4px; border-style: solid;
+          width: 250px;       height: 250px;
+          top: 390px;         left: 75px;
+          position:absolute;  z-index: 7;}
+        #bscs{
+          width: 300px;       height: 300px;
+          top: 280px;         left: 55px;
+          position:absolute;  z-index: 8;
+          text-align: center;}
+        #wall1{
+          background-color: #C0C0C0;
+          border-width: 3px; border-style: solid;
+          width: 70px;          height: 534px;
+          top: 117px;           left: 50px;
+          position:absolute;z-index: 10}
+        #wall2{
+          background-color: #C0C0C0;
+          border-width: 3px;  border-style: solid;
+          width: 50px;        height: 620px;
+          top: 30px;          left: 300px;
+          position:absolute;    z-index: 1;}
+        #wall3{
+          background-color: #C0C0C0;
+          border-width: 3px;  border-style: solid;
+          width: 50px;       height: 620px;
+          top: 30px;         left: 500px;
+          position:absolute; }
+        #wall4{
+          background-color: #C0C0C0;
+          border-width: 3px; border-style: solid;
+          width: 50px;        height: 620px;
+          top: 30px;   left: 710px;  z-index: 1;
+          position:absolute;}
+        #wall5{
+          background-color: #C0C0C0;
+          border-width: 3px; border-style: solid;
+          width: 50px;         height: 620px;
+          top: 30px;   z-index: 1;  left: 1450px;
+          position:absolute;}
+        #wall6{
+          background-color: #C0C0C0;
+          border-width: 3px; border-style: solid;
+          width: 140px;         height: 534px;
+          top: 117px;           left: 1680px;
+          position:absolute;    z-index: 11}
+        #wallp{
+          background-color: #C0C0C0;
+          border-width: 7px;  border-style: solid; color: #000000;
+          position: absolute;
+          padding: 255px 60px;
+          top: 123px;   left: 1685px;
+          z-index: 12;}
+        #door1{
+          border-color: #FF0000;  border-width: 4px;  border-style: solid;
+          background-color: rgb(88, 86, 86);
+          width: 40px;      height: 70px;
+          top: 130px;       left: 120px;
+          position:absolute;}
+        #window1{
+          background-color: rgb(88, 86, 86); border-width: 3px; border-style: solid;  color: white;
+          padding: 13px 100px;
+          top: 130px;  z-index: 0;  left: 220px;
+          position: absolute;}
+        #door2{
+          border-color: #FF0000; border-width: 3px; border-style: solid;
+          background-color: rgb(88, 86, 86);
+          width: 40px;      height: 70px;
+          top: 130px;       left: 455px;
+          position:absolute;}
+        #door3{
+          border-color: #FF0000; border-width: 3px; border-style: solid;
+          background-color: rgb(88, 86, 86);
+          width: 40px;      height: 70px;
+          top: 130px;       left: 555px;
+          position:absolute;}
+        #window2{
+          background-color: rgb(88, 86, 86);
+          border-width: 3px; border-style: solid;  color: white;
+          padding: 13px 100px;
+          top: 130px;   z-index: 0;   left: 635px;
+          position: absolute;}
+         #door4{
+          border-color: #FF0000;  border-width: 4px; border-style: solid;
+          background-color: rgb(88, 86, 86);
+          width: 40px;      height: 70px;
+          top: 130px;       left: 870px;
+          position:absolute;}
+         #door5{
+          border-color: #FF0000; border-width: 4px;  border-style: solid;
+          background-color: rgb(88, 86, 86);
+          width: 40px;      height: 70px;
+          top: 310px;       left: 120px;
+          position:absolute;}
+         #window3{
+          background-color: rgb(88, 86, 86);
+          border-width: 3px;  border-style: solid;  color: white;
+          padding: 13px 100px;
+          top: 310px;    left: 220px;
+          position: absolute;}
+         #door6{
+          border-color: #FF0000;  border-width: 3px;  border-style: solid;
+          background-color: rgb(88, 86, 86);
+          width: 40px;      height: 70px;
+          top: 310px;       left: 455px;
+          position:absolute;}
+        #door7{
+          border-color: #FF0000; border-width: 3px;  border-style: solid;
+          background-color: rgb(88, 86, 86);
+          width: 40px;      height: 70px;
+          top: 310px;       left: 555px;
+          position:absolute;}
+        #window4{
+          background-color: rgb(88, 86, 86); border-width: 3px; border-style: solid;  color: white;
+          padding: 13px 100px;
+          top: 310px;   z-index: 0;   left: 635px;
+          position: absolute;}
+         #door8{
+          border-color: #FF0000;  border-width: 4px;  border-style: solid;
+          background-color: rgb(88, 86, 86);
+          width: 40px;      height: 70px;
+          top: 310px;       left: 870px;
+          position:absolute;}
+         #door9{
+          border-color: #FF0000; border-width: 4px;  border-style: solid;
+          background-color: rgb(88, 86, 86);
+          width: 40px;      height: 70px;
+          top: 490px;       left: 120px;
+          position:absolute;}
+         #window5{
+          background-color: rgb(88, 86, 86); border-width: 3px; border-style: solid;  color: white;
+          padding: 13px 100px;
+          top: 490px;    left: 220px;
+          position: absolute;}
+         #door10{
+          border-color: #FF0000;  border-width: 3px; border-style: solid;
+          background-color: rgb(88, 86, 86);
+          width: 40px;      height: 70px;
+          top: 490px;       left: 455px;
+          position:absolute;}
+        #door11{
+          border-color: #FF0000; border-width: 3px; border-style: solid;
+          background-color: rgb(88, 86, 86);
+          width: 40px;      height: 70px;
+          top: 490px;       left: 555px;
+          position:absolute;}
+        #window6{
+          background-color: rgb(88, 86, 86);  border-width: 3px; border-style: solid;  color: white;
+          padding: 13px 100px;
+          top: 490px;   z-index: 0;   left: 635px;
+          position: absolute;}
+         #door12{
+          border-color: #FF0000; border-width: 4px; border-style: solid;
+          background-color: rgb(88, 86, 86);
+          width: 40px;      height: 70px;
+          top: 490px;       left: 870px;
+          position:absolute;}
+         #Ldoor1{
+          border-color: #FF0000; border-width: 4px; border-style: solid;
+          background-color: rgb(88, 86, 86);
+          width: 40px;      height: 70px;
+          top: 130px;       left: 1300px;
+          position:absolute;}
+         #window7{
+          background-color: rgb(88, 86, 86); border-width: 3px; border-style: solid;  color: white;
+          padding: 13px 100px;
+          top: 130px;  z-index: 0;  left: 1380px;
+          position: absolute;}
+         #Ldoor2{
+          border-color: #FF0000;  border-width: 4px; border-style: solid;
+          background-color: rgb(88, 86, 86);
+          width: 40px;      height: 70px;
+          top: 130px;       left: 1640px;
+          position:absolute;}
+         #Ldoor3{
+          border-color: #FF0000; border-width: 4px; border-style: solid;
+          background-color: rgb(88, 86, 86);
+          width: 40px;      height: 70px;
+          top: 310px;       left: 1300px;
+          position:absolute;}
+         #window8{
+          background-color: rgb(88, 86, 86);
+          border-width: 3px; border-style: solid;  color: white;
+          padding: 13px 100px;
+          top: 310px;  z-index: 0;  left: 1380px;
+          position: absolute;}
+         #Ldoor4{
+          border-color: #FF0000; border-width: 4px; border-style: solid;
+          background-color: rgb(88, 86, 86);
+          width: 40px;      height: 70px;
+          top: 310px;       left: 1640px;
+          position:absolute;}
+         #Ldoor5{
+          border-color: #FF0000; border-width: 4px; border-style: solid;
+          background-color: rgb(88, 86, 86);
+          width: 40px;      height: 70px;
+          top: 490px;       left: 1300px;
+          position:absolute;}
+         #window9{
+          background-color: rgb(88, 86, 86);
+          border-width: 3px;border-style: solid;  color: white;
+          padding: 13px 100px;
+          top: 490px;  z-index: 0;  left: 1380px;
+          position: absolute;}
+         #Ldoor6{
+          border-color: #FF0000; border-width: 4px; border-style: solid;
+          background-color: rgb(88, 86, 86);
+          width: 40px;      height: 70px;
+          top: 490px;       left: 1640px;
+          position:absolute;}
+        #way{
+          background-color: #D2B48C;
+          border-width: 10px; border-style: solid;
+          color: #000000;
+          height: 200px; top: 580px;
+          left: 0px;  right:0px;
+          position:absolute;  z-index: 0;}
+        #logo{
+            left: 930px;
+            top:290px;
+            position:absolute;
+            z-index: 9;
+        }
+         #logo2{
+            left:1210px;
+            top:290px;
+            position:absolute;
+            z-index: 9;
+        }
+        #hags{
+            background-color:#C0C0C0;
+            width: 20px;
+            height: 200px;
+            left:1100px;
+            top:409px;
+            position:absolute;
+            z-index: 11;
+        }
+        #hags2{
+            background-color:#5A5A5A;
+            width: 20px;
+            height: 200px;
+            left:1105px;
+            top:409px;
+            position:absolute;
+            z-index: 10;
+        }
+        #hag1{
+            background-color:#C0C0C0;
+            width: 120px;
+            height: 20px;
+            left:1120px;
+            top:511px;
+            position:absolute;
+            z-index: 9;
+        }
+        #hag2{
+            background-color:#C0C0C0;
+            width: 120px;
+            height: 20px;
+            left:1120px;
+            top:585px;
+            position:absolute;
+            z-index: 9;
+        }
+         #hag3{
+            background-color:#C0C0C0;
+            width: 120px;
+            height: 20px;
+            left:1120px;
+            top:560px;
+            position:absolute;
+            z-index: 9;
+        }
+        #hag4{
+            background-color:#C0C0C0;
+            width: 120px;
+            height: 20px;
+            left:1120px;
+            top:535px;
+            position:absolute;
+            z-index: 9;
+        }
+        #hag5{
+            background-color:#C0C0C0;
+            width: 120px;
+            height: 20px;
+            left:1120px;
+            top:487px;
+            position:absolute;
+            z-index: 9;
+        }
+    
+    
+        #hagb1{
+            background-color:#5A5A5A;
+            width: 121px;
+            height: 20px;
+            left:1120px;
+            top:507px;
+            position:absolute;
+            z-index: 8;
+    
+        }
+        #hagb2{
+            background-color:#5A5A5A;
+            width: 121px;
+            height: 20px;
+            left:1120px;
+            top:580px;
+            position:absolute;
+            z-index: 8;
+    
+        }
+        #hagb3{
+            background-color:#5A5A5A;
+            width: 120px;
+            height: 20px;
+            left:1120px;
+            top:555px;
+            position:absolute;
+            z-index: 8;
+        }
+         #hagb4{
+            background-color:#5A5A5A;
+            width: 120px;
+            height: 20px;
+            left:1120px;
+            top:530px;
+            position:absolute;
+            z-index: 8;
+        }
+        #hagb5{
+            background-color:#5A5A5A;
+            width: 120px;
+            height: 20px;
+            left:1120px;
+            top:483px;
+            position:absolute;
+            z-index: 8;
+        }
+    
+    </style>
+        <div id="hag1"></div>
+        <div id="hag2"></div>
+        <div id="hag3"></div>
+        <div id="hag4"></div>
+        <div id="hag5"></div>
+    
+        <div id="hagb1"></div>
+        <div id="hagb2"></div>
+        <div id="hagb3"></div>
+        <div id="hagb4"></div>
+        <div id="hagb5"></div>
+    
+        <div id="hags"></div>
+        <div id="hags2"></div>
+        <div id="logo">
+        <img <img src="326996669_3140925469386128_4741881816765893098_n.png" width="90" height="90" alt="" />
+        </div>
+        <div id="logo2">
+        <img <img src="327846273_924259865426213_968341882776834341_n.png" width="90" height="90" alt="" />
+        </div>
+        <div id=building></div>
+        <div id=floor4></div>
+        <div id=floor3></div>
+        <div id=floor2></div>
+        <div id=floor1></div>
+    
+        <div id=mid> <div id=box></div>   <div id=box2></div>
+        <div id=bscs>
+        <B>COLLEGE<br/>OF<br/>COMPUTER SCIENCE</B>
+        </div>
+        </div>
+    
+        <div id=wall1></div>
+        <div id=wall2></div>
+        <div id=wall3></div>
+        <div id=wall4></div>
+        <div id=wall5></div>
+        <div id=wall6></div>
+        <div id=wallp></div>
+    
+        <div id=door1></div>
+        <div id=window1></div>
+        <div id=door2></div>
+        <div id=door3></div>
+        <div id=window2></div>
+        <div id=door4></div>
+        <div id=door5></div>
+        <div id=window3></div>
+        <div id=door6></div>
+        <div id=door7></div>
+        <div id=window4></div>
+        <div id=door8></div>
+        <div id=door9></div>
+        <div id=window5></div>
+        <div id=door10></div>
+        <div id=door11></div>
+        <div id=door12></div>
+        <div id=window6></div>
+        <div id=Ldoor1></div>
+        <div id=Ldoor2></div>
+        <div id=window7></div>
+        <div id=Ldoor3></div>
+        <div id=Ldoor4></div>
+        <div id=window8></div>
+        <div id=Ldoor5></div>
+        <div id=window9></div>
+        <div id=Ldoor6></div>
+    
+        <div id=way></div>
+    
+    </form>

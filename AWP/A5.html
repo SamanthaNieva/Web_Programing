@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        body{
+    background-image: linear-gradient(to right, rgb(7, 106, 255),rgb(137, 219, 249));
+}
+h1{
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    left: 130px;
+    top: -1px;
+    font-family: Klavika-web, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+#email{
+    position: absolute;
+    top: 130px;
+    padding: 10px 30px;
+    right: 350px;
+    border-radius: 5px;
+    border: none;
+}
+h2{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    right: 472px;
+    top: 100px;
+}
+#pass{
+    position: absolute;
+    top: 130px;
+    padding: 10px 30px;
+    right: 100px;
+    border-radius: 5px;
+    border: none;
+}
+h3{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    right: 262px;
+    top: 98px;
+}
+#btn1{
+    position: absolute;
+    right: 100px;
+    top: 200px;
+    background-color:rgb(0, 119, 255);
+    color: #fff;
+    padding: 10px 220px;
+   border: none;
+   border-radius: 5px;
+}
+#btn1:hover{
+    background-color:rgb(2, 82, 173);
+}
+a{
+    position: absolute;
+    top: 170px;
+    right: 195px;
+    font-size: 15px;
+}
+h4{
+    font-size: 40px;
+    position: absolute;
+    color: black;
+    top: 190px;
+    right: 225px;
+}
+#fn{
+    position: absolute;
+    top: 310px;
+    right: 350px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+}
+#sn{
+    position: absolute;
+    top: 310px;
+    right: 100px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+}
+#ad{
+    position: absolute;
+    top: 365px;
+    right: 100px;
+    padding: 10px 155px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+#np{
+    position: absolute;
+    top: 420px;
+    right: 100px;
+    padding: 10px 155px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+h5{
+    position: absolute;
+    top: 410px;
+    right: 460px;
+    font-size: 30px;
+}
+
+#date{
+    position: absolute;
+    top: 500px;
+    right: 405px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+}
+#r1{
+    position: absolute;
+    top: 505.5px;
+    right: 357px;
+    width: 20px;
+    height: 20px;
+}
+p1{
+    position: absolute;
+    top: 509px;
+    right: 325px;
+}
+#r2{
+    position: absolute;
+    top: 505.5px;
+    right: 271px;
+    width: 20px;
+    height: 20px;
+}
+p2  {
+    position: absolute;
+    top: 509px;
+    right: 225px;
+}
+#sign{
+        position: absolute;
+        right: 95px;
+        top: 560px;
+        background-color:#fff;
+        color: rgb(0, 119, 255);
+        padding: 10px 215px;
+       border: none;
+       border-radius: 5px;
+}
+#sign:hover{
+    background-color:#c5c1c1;
+}
+#reset{
+    position: absolute;
+    right: 105px;
+    top: 500px;
+    background-color:#fff;
+    color: rgb(0, 119, 255);
+    padding: 10px 25px;
+   border: none;
+   border-radius: 5px;
+}
+#reset:hover{
+    background-color:#c5c1c1;
+}
+img{
+    position: absolute;
+    top: 150px;
+    width: 700px;
+    height: 300px;
+}
+p3{
+    position: absolute;
+    bottom: 160px;
+    left: 50px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+    
+    <div class="head">
+    <h1>facebook</h1>
+    <h2>Email or Phone</h2>
+    <h3>Password</h3>
+    <form>
+        <label>
+            <input required type="text" placeholder="Email or phone" id="email" name="acc"/>
+            <input required type="password" placeholder="Password" id="pass" name="acc"/>
+        </label>
+       
+    </form>
+    <button type="submit" id="btn1">Login</button>
+    <a href="#">Forgotten Password?</a>
+    </div>
+<h4>Create New Account</h4>
+<form>
+    <label>
+        <input required type="text" placeholder="Firstname" id="fn" maxlength="15" name="create" />
+        <input required type="text" placeholder="Surename" id="sn" maxlength="15" name="create" />
+        <input required type="text" placeholder="Address" id="ad" maxlength="30" name="create" />
+        <input required type="password" placeholder="New Password" id="np" name="create" />
+        <h5>Birthday</h5>
+        <p1>Male</p1>
+        <input type="date" id="date" name="create" />
+        <p2>Female</p2>
+        <input type="radio" id="r1" name="create"/>
+        <input type="radio" value="Male" id="r2" name="create" />
+    </label>
+</form>
+<button type="button" id="sign">Sign Up</button>
+<button type="reset" id="reset" name="create" name="reset">Reset</button>
+<body>
+</html>
