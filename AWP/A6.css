@@ -1,0 +1,22 @@
+#border{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    padding: 310px 300px;
+    position: absolute;
+    top: 50px;
+    left: 350px;
+    background-color: #fff;
+}
+body{
+    background-color: black;
+}
+img{
+    position:absolute;
+    width: 50px;
+    height: 50px;
+    background-color: black;    
+    top: 50px;
+    left: -200px;
+}
