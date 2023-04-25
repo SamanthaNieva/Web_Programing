@@ -19,7 +19,7 @@
             position_left = position_left.substring(0,position_left.length-2);
             position_left = parseInt(position_left)+50;
             document.getElementById('box').style.left=position_left+"px";
-            document.getElementById("box").innerHTML='<img src="r.jpeg"/>';
+            document.getElementById("box").innerHTML='<img src="r.png"/>';
             if(position_left >= 725){
                  
                 stop_function();
