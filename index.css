@@ -68,6 +68,14 @@ h4{
 
 }
 @media screen and (max-width: 320px){
+      h4{
+        position: absolute;
+        top: 56%;
+        left: 43%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 30px;
+    
+    }
     .headers{
         font-size: 30px;
         position: relative;
