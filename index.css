@@ -103,13 +103,13 @@ h4{
     .headers{
         font-size: 30px;
         position: relative;
-        left: 36%;
+        left: 46%;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: rgb(229, 229, 229);
     }
     .profile{
         position: absolute;
-        left: 28%;
+        left: 30%;
         width: 500px;
         height: 590px;
         background-color: transparent;
